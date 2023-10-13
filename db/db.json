@@ -1,0 +1,221 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "title": "Developing",
+      "name": "joke-drake",
+      "tags": ["Frontend", "Backend"],
+      "imagePath": "pic1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Programmer",
+      "name": "nazim",
+      "tags": ["Javascript", "Ruby on Rails"],
+      "imagePath": "pic2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Developing",
+      "name": "simpsons",
+      "tags": ["Frontend", "Backend"],
+      "imagePath": "pic3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Php developer",
+      "name": "google-search",
+      "tags": ["Php"],
+      "imagePath": "pic4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Programmer",
+      "name": "cat",
+      "tags": ["coding"],
+      "imagePath": "pic5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "UNIX",
+      "name": "penguin",
+      "tags": ["linux"],
+      "imagePath": "pic6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Developing",
+      "name": "dove",
+      "tags": ["Frontend", "Backend"],
+      "imagePath": "pic7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Education",
+      "name": "education",
+      "tags": ["IT", "education"],
+      "imagePath": "pic8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "CV",
+      "name": "resume",
+      "tags": ["CV", "resume"],
+      "imagePath": "pic9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "C++",
+      "name": "c++",
+      "tags": ["C++", "coding"],
+      "imagePath": "pic10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "JavaScript or Java",
+      "name": "strange",
+      "tags": ["JavaScript", "Java"],
+      "imagePath": "pic11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Project Manager",
+      "name": "family",
+      "tags": ["management", "IT"],
+      "imagePath": "pic12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Devices",
+      "name": "monitor",
+      "tags": ["devices", "IT"],
+      "imagePath": "pic13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Fix bugs",
+      "name": "bug",
+      "tags": ["bugs", "fix"],
+      "imagePath": "pic14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "A small bug",
+      "name": "small-bug",
+      "tags": ["bugs", "fix"],
+      "imagePath": "pic15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Game developing",
+      "name": "gamedev",
+      "tags": ["Gamedev", "геймдев"],
+      "imagePath": "pic16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Developing",
+      "name": "dzen",
+      "tags": ["coding", "developing"],
+      "imagePath": "pic17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Developing",
+      "name": "fronetn-master",
+      "tags": ["Frontend", "Backend"],
+      "imagePath": "pic18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "DevOps",
+      "name": "server",
+      "tags": ["DevOps", "server"],
+      "imagePath": "pic19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Error in the code",
+      "name": "code-error",
+      "tags": ["Python", "JavaScript"],
+      "imagePath": "pic20.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Developing",
+      "name": "programming",
+      "tags": ["programming"],
+      "imagePath": "pic21.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Developing",
+      "name": "working-cat",
+      "tags": ["programming"],
+      "imagePath": "pic22.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Developing",
+      "name": "tired-cat",
+      "tags": ["programming"],
+      "imagePath": "pic23.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Word tricks",
+      "name": "word-tricks",
+      "tags": ["Wodrs", "Microsoft"],
+      "imagePath": "pic24.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Linux",
+      "name": "linux-sudo",
+      "tags": ["Linux", "UNIX"],
+      "imagePath": "pic25.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Deadline",
+      "name": "deadline",
+      "tags": ["Deadline", "time management"],
+      "imagePath": "pic26.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Google search",
+      "name": "snikers",
+      "tags": ["Google", "Frontend"],
+      "imagePath": "pic27.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Confucius",
+      "name": "сonfucius",
+      "tags": ["Debugging"],
+      "imagePath": "pic28.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Coding",
+      "name": "self-coding",
+      "tags": ["coding"],
+      "imagePath": "pic29.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Remote work",
+      "name": "remote-work",
+      "tags": ["work-moments"],
+      "imagePath": "pic30.jpg"
+    },
+    {
+      "id": 31,
+      "title": "QA tester",
+      "name": "tester",
+      "tags": ["QA"],
+      "imagePath": "pic31.jpg"
+    }
+  ]
+}

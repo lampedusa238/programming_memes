@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programmer memes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="container">
+          <div class="header__container">
+            <a class="header__logo" href="#">Logo</a>
+            <span class="header__logo-name">{{ title }}</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="memes">
+          <div class="container">
+            <div class="memes__row">
+              <div
+                class="memes__column"
+                v-for="mem in currentUserMemes"
+                :key="mem.id"
+              >
+                <div class="mem-card">
+                  <div class="mem-card__body">
+                    <div class="mem-card__picture-container">
+                      <span class="top-secret"
+                        >{{ mem.name }} {{ mem.name }}</span
+                      >
+                      <picture class="mem-card__picture">
+                        <img
+                          class="mem-card__image"
+                          :name="mem.name"
+                          :src="`./img/${mem.imagePath}`"
+                          :alt="mem.name"
+                        />
+                      </picture>
+                    </div>
+                    <div
+                      class="mem-card__title"
+                      :id="mem.title"
+                      :name="mem.name"
+                    >
+                      {{ mem.title }}
+                    </div>
+                    <div class="mem-card__badge">
+                      <span
+                        class="mem-card__badge-text"
+                        v-for="tag in mem.tags"
+                        :key="tag"
+                        :data-tag="tag"
+                        >{{ tag }}</span
+                      >
+                    </div>
+                  </div>
+                  <div class="mem-card__footer">
+                    <div class="mem-card__button-group">
+                      <button
+                        class="button mem-card__button mem-card__button_yellow"
+                        :data-button="`${'button-'+ mem.title }`"
+                        type="button"
+                      >
+                        Click me
+                      </button>
+                      <button
+                        class="button mem-card__button mem-card__button_red"
+                        type="submit"
+                      >
+                        Don't touch Me
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
